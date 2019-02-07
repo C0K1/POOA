@@ -4,6 +4,16 @@ public class Persona {
 
 	private int Edad;
 	private String Nombre;
+	public Persona(int edad, String nombre) {
+		
+		super();
+				
+		this.Edad = Edad;
+				
+		this.Nombre = Nombre;
+			
+		}
+			
 	public int getEdad() {
 		return Edad;
 	}
